@@ -1,6 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>    
+<style>    
+body{
+  background-color: #000 ;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+
+@keyframes blink { 50% { border-color: #ff0000; }  }
+
+error {
+  border: 8px solid #000000 ;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50% ;
+  min-width: 800px;
+  text-align:center ;
+  font: bold 1.5em/2em monospace ;
+  color: #ff0000 ;
+  background-color: #000000 ;
+  animation: blink .55s step-end infinite alternate;
+}
+</style>    
+</head>
+
+<body>
 <a href="/">
   <error>
     Software Failure.&nbsp;&nbsp;&nbsp;&nbsp;Press left mouse button to continue.<br>
     Guru Meditation #00000004.0000AAC0
   </error>
 </a>
+</body>
+</html>
