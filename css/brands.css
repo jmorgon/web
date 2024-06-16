@@ -45,7 +45,8 @@ button {
   white-space: wrap;
   outline: none;
   border-radius: 8px;
-  cursor: pointer;
+</style>
+
   
 }     
 button:hover,

@@ -97,6 +97,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  cursor: url(../images/amiga-pointer.cur), auto;
 }
 
 /* Text-level semantics
@@ -292,7 +293,7 @@ html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
+   /* 3 */
 }
 
 /**
